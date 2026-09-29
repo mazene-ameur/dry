@@ -1,0 +1,21 @@
+# Virtual environments (this repo's venv lives in .env/)
+.env/
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Generated simulation data (regenerate with run_stages.py / sa_qlgso_v5.py)
+*.pkl
+results/stages/
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
